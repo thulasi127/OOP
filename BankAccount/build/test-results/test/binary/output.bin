@@ -1,0 +1,11 @@
+1CheckingAccountTest: Test Deduct transaction fee
+#CheckingAccountTest: Test Withdraw
+"CheckingAccountTest: Test Deposit
+*SavingAccountTest: Test Add Interest Rate
+0SavingAccountTest: Test Calculate Interest Rate
+	!BankAccountTest: Test getBalance
+	
+BankAccountTest: Test Withdraw
+	BankAccountTest: Test Withdraw
+	BankAccountTest: Test Deposit
+	BankAccountTest: Test Transfer

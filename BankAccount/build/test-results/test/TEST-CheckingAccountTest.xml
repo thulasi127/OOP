@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckingAccountTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-21T06:22:48" hostname="Thulasi-MacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="testDeductFee" classname="CheckingAccountTest" time="0.01"/>
+  <testcase name="testWithdraw" classname="CheckingAccountTest" time="0.001"/>
+  <testcase name="testDeposit" classname="CheckingAccountTest" time="0.001"/>
+  <system-out><![CDATA[CheckingAccountTest: Test Deduct transaction fee
+CheckingAccountTest: Test Withdraw
+CheckingAccountTest: Test Deposit
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

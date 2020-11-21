@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies{
+  testImplementation 'junit:junit:4.13'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+test {
+  useJUnit()
+  testLogging {
+      events "passed", "skipped", "failed" //, "standardOut", "standardError"
+
+      showExceptions true
+      exceptionFormat "full"
+      showCauses true
+      showStackTraces false
+      showStandardStreams = true
+    }
+}

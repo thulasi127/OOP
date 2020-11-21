@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SavingAccountTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-21T06:22:48" hostname="Thulasi-MacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="testAddInterest" classname="SavingAccountTest" time="0.003"/>
+  <testcase name="testCalculateInterestRate" classname="SavingAccountTest" time="0.001"/>
+  <system-out><![CDATA[SavingAccountTest: Test Add Interest Rate
+SavingAccountTest: Test Calculate Interest Rate
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
